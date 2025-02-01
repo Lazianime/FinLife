@@ -76,18 +76,11 @@ function Navbar() {
           {!isAuthenticated ? (
             <>
               <Link
-                to="/login"
+                to="/auth"
                 className="text-gray-700 hover:text-gray-900"
                 onClick={closeAllMenus}
               >
-                Login
-              </Link>
-              <Link
-                to="/signup"
-                className="text-gray-700 hover:text-gray-900"
-                onClick={closeAllMenus}
-              >
-                Sign Up
+                Get Started
               </Link>
             </>
           ) : (
